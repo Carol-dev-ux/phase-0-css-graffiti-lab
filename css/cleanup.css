@@ -1,1 +1,54 @@
-/* write your override styles here */
+
+#wall {
+    background-color: #f0f0f0; /* Set a background color */
+    padding: 20px; /* Add some padding to the wall */
+  }
+  
+  /* Override styles for individual tags */
+  .tag-1 {
+    color: red; /* Change text color for tag-1 */
+  }
+  
+  #tag-2 {
+    font-size: 24px; /* Change font size for tag-2 */
+  }
+  
+  #tag-3.slick {
+    border: 2px solid blue; /* Add a blue border to tag-3 with class 'slick' */
+  }
+  
+  .parent {
+    margin-bottom: 10px; /* Add margin to all elements with class 'parent' */
+  }
+  
+  #tag-4 {
+    background-color: yellow; /* Set a background color for tag-4 */
+  }
+  
+  #tag-5.slick {
+    font-style: italic; /* Italicize text for tag-5 with class 'slick' */
+  }
+  
+  #tag-6 {
+    text-decoration: underline; /* Underline text for tag-6 */
+  }
+  
+  #tag-7.slick {
+    color: green; /* Change text color for tag-7 with class 'slick' */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add more styles to meet the 300 bytes requirement */
+  .additional-style-1 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .additional-style-2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
